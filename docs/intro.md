@@ -2,34 +2,26 @@
 sidebar_position: 1
 ---
 
-# Pixel Creator 
+# DejaVu Editor
 
-Pixel creator is a lightweight framework that simplifies the creation of web based games for use with Html, CSS, and Javascript. 
+DejaVu is a template based approach to map/level design that allows for large, customizeable worlds without the extra work that comes with an expansive map. This is achieved through the creation of templates that can be seamlessly mix and matched to create the illusion of
+unique sections of the map.
 
-## Why pixel creator?
-Pixel creator is aimed at simplifying the game creation process by providing the gameplay features ready at your disposal.
-Games are structured and ran with 3 simple functions for the user to program, which are the setup, start the end functions.
-Each game configuration is housed within a single file to easily keep track of and manage. Pixel creator also allows for the implementation of multiple games per website, so you can house collections of levels witihin one single site.
+---
 
-## Technical Features
-* Sprite handling
+## Why Dejavu?
 
-* 2D rendering
+### Reduce the amount of work
+* Don't have to design as many components
+* Can reuse or set minor adjustments to common areas
 
-* Input handling
+### Lower memory
+* Removes the need to store properties for every object
+* Template based design promotes reusablility
 
-* Utility classes
-
-* Module functions
-
-## Contents
-
-See [Installation](docs/getting-started.md) to start using Pixel Creator.      
-See API to get used to the API.      
-See Changelog for newest updates.      
-
-
-
+### Maintain flexibility and control
+* Lets the user define modular objects
+* Allows for non-template portions as well 
 
 
 

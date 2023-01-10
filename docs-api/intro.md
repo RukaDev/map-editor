@@ -2,17 +2,41 @@
 sidebar_position: 1
 ---
 
-# Guide
+# API
 
-### `Classes​`
+### `load`
 
-Classes are comprised of gameplay-specific methods.
+Loads the current edition of the map from the saved data file.
 
-### `Utility​`
+```js
+DejaVu.load()
+```
 
-Utility scripts are composed of independent, commonly used methods.
+### `save`
 
-### `Modules​`
+Saves the current edition of the map in the map folder.
 
-Module scripts consist of frequently used game-specific methods.
+```js
+DejaVu.save()
+```
+
+### `SetLayout`
+
+Saves every layout for all subcategories 
+
+```js
+Dejavu.setLayout()
+```
+
+Saves all layouts of the given subcategory.
+
+```js
+Dejavu.setLayout(subcategory: string)
+```
+
+Saves the specific layout for a given subcategory.
+
+```js
+Dejavu.setLayout(subcategory: string, id, number)
+```
 
